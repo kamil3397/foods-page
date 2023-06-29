@@ -83,16 +83,16 @@ html {
   box-shadow: 1rem 1rem 1rem #000;
   position: relative;
   transform: rotateY(20deg) skewX(-2deg);
-  transition: transform 0.5s, box-shadow 0.5s ;
+  transition: transform 0.5s, box-shadow 0.5s;
 }
 
-.card:hover{
+.card:hover {
   transform: rotateY(20deg) skewX(-2deg) translateY(-3rem);
   box-shadow: 2rem 2rem 2rem #000;
 }
 
-.card::before{
-  content: '';
+.card::before {
+  content: "";
   height: 100%;
   width: 1rem;
   background-color: #817824;
@@ -103,8 +103,8 @@ html {
   transform-origin: right;
   box-shadow: -0.1rem -0.1rem 0.1rem #000;
 }
-.card::after{
-  content: '';
+.card::after {
+  content: "";
   height: 1rem;
   width: 100%;
   background-color: #8f8317;
@@ -130,7 +130,7 @@ html {
   text-shadow: 0.15rem 0.15rem 0.15rem #000;
 }
 
-.card-btn{
+.card-btn {
   width: 70%;
   background-color: #111;
   color: #888;
@@ -146,3 +146,52 @@ html {
 }
 
 /* End of Section 2 */
+
+/* Section 3 */
+.section-3 {
+  background-color: #333;
+  padding: 5rem 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.gallery-link {
+  position: relative;
+  margin: 4rem 1rem;
+}
+
+.food-img {
+  width: 24vw;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.food-name {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+.food-description{
+  position: absolute;
+  bottom: 3vw;
+  left: 2rem;
+  width: 70%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+/* End of Section 3 */
